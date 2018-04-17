@@ -7,9 +7,9 @@ margin:0;
 
 }
 
-.body{
+body{
 background-color:black;
-width:100%
+width:100%;
 display: flex;
 }
 .header{
@@ -18,7 +18,7 @@ display: flex;
   position: fixed;
   height:69px;
   display: flex;
-  width:100%
+  width:100%;
   justify-content: space-between;
   flex-wrap: wrap;
   color:white
@@ -43,14 +43,15 @@ align-items: center;
 .nav u {
   color: white;
 }
-.body{
+body{
   background-color: black;
   text-align: center;
   display: block;
   justify-content: center;
 
 }
-#mission{
+
+#misson{
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -62,13 +63,9 @@ align-items: center;
 }
 .mission {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-  background-color: black;
- }
-
- /* Keyword values */{
-background-repeat: repeat;
- }
-
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .content{
   padding-top:70px;
